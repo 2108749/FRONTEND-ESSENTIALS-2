@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  display: inline-block;
+  border: solid 2px;
+  width: 90px;
+  text-align: center;
+  padding: 16px 30px;
+  background-color: #f4511e;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+ul li:hover {
+  background-color: turquoise;
+}
