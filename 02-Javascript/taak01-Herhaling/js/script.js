@@ -8,11 +8,12 @@ if(boolNaamKlopt == true){
 else{
     strNaam = prompt("Nog een keer.. Hoe heet jij?");
     boolNaamKlopt = confirm("Heet je echt " + strNaam);
-}
-if(boolNaamKlopt == true){
-    alert("hoi")
 
-}
-else{
+    if(boolNaamKlopt == true){
+    alert("doei")
+
+    }
+    else{
     alert("alsnog welkom")
+    }
 }
