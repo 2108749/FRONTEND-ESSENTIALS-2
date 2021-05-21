@@ -11,6 +11,10 @@ topFilms = [
     "Lawrence of Arabia"
 ];
 
+
+antwoord = prompt("What is your favorite movie?");
+console.log(antwoord);
+
 document.querySelector(".film1-ranking").innerHTML = 1;
 document.querySelector(".film1-naam").innerHTML = topFilms[0];
 document.querySelector(".film2-ranking").innerHTML = 2;
