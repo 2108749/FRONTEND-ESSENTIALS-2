@@ -1,9 +1,9 @@
 topFilms = [
-    "The Godfather",
-    "The Shawshank Redemption",
-    "Schindler's List",
-    "Raging Bull",
-    "Casablanca"
+  "The Godfather",
+  "The Shawshank Redemption",
+  "Schindler's List",
+  "Raging Bull",
+  "Casablanca",
 ];
 
 document.querySelector(".film1-ranking").innerHTML = 1;
