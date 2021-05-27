@@ -1,7 +1,7 @@
 const number = parseInt(prompt('Put here a number: '));
 let n1 = 0, n2 = 1, nextTerm;
 
-console.log('Fibonacci Series:');
+
 console.log(n1);
 console.log(n2);
 
