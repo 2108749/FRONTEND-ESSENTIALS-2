@@ -16,3 +16,21 @@ document.querySelector(".film4-ranking").innerHTML = 4;
 document.querySelector(".film4-naam").innerHTML = topFilms[3];
 document.querySelector(".film5-ranking").innerHTML = 5;
 document.querySelector(".film5-naam").innerHTML = topFilms[4];
+
+function moveUp(id) {
+  let index = arr.findIndex(e => e.id == id);
+  if (index > 0) {
+    let el = arr[index];
+    arr[index] = arr[index - 1];
+    arr[index - 1] = el;
+  }
+}
+
+function moveDown(id) {
+  let index = arr.findIndex(e => e.id == id);
+  if (index !== -1 && index < arr.length - 1) {
+    let el = arr[index];
+    arr[index] = arr[index + 1];
+    arr[index + 1] = el;
+  }
+}
